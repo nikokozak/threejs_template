@@ -1,6 +1,5 @@
 # threejs_template
-A basic, dev-mode template for Threejs with Webpack and a webpack-web-server. Makes it simple to start playing with a basic ThreeJS
-setup including Omni controls without having to trudge through webpack or Threejs setup.
+A basic, dev-mode template for Threejs with Webpack, Typescript and a webpack-web-server. Makes it simple to start playing with a basic ThreeJS setup including Omni controls without having to trudge through Webpack or Threejs setup.
 
 ## Usage
 1. `degit nikokozak/threejs_template <target_dir>`
