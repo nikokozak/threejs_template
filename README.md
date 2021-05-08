@@ -9,6 +9,12 @@ setup including Omni controls without having to trudge through webpack or Threej
 4. `git init`
 5. `npm run dev`
 
+## Structure
+The basic structure in `src` is as follows:
+`index.ts` - basic scene setup, holds meshes, scene, etc. Root of the project.
+`params.ts` - params that we might want to access across many files, like the width and height of the project.
+`utils.ts` - setup and other utils to remove complexity from `index.ts`.
+
 ## Details
 For ease of use, the following assumptions are made:
 1. "Development" mode is hardcoded into `webpack.config.js`.
